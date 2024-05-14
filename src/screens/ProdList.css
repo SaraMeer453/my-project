@@ -1,0 +1,30 @@
+/* ProductReviewList.css */
+
+.product-card {
+    margin-bottom: 20px;
+  }
+  
+  .product-card .rating {
+    margin-bottom: 10px;
+  }
+  
+  .product-card .rating .star {
+    color: #ffc107; /* Yellow color for filled star */
+  }
+  
+  .product-card .rating .star:last-child {
+    color: #aaa; /* Gray color for empty star */
+  }
+  
+  .product-card .form-group {
+    margin-bottom: 0; /* Remove bottom margin for better alignment */
+  }
+  
+  .product-card textarea {
+    resize: none; /* Disable textarea resizing */
+  }
+  
+  .product-card textarea::placeholder {
+    color: #aaa; /* Gray color for placeholder text */
+  }
+  
